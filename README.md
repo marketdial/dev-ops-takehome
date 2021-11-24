@@ -2,7 +2,7 @@
 The purpose of this project is to create a small Python server that can interact with a PostgreSQL database. This server is built in a docker container and can be ran using `docker compose up`. The following tasks explain how we expect you to do this.
 
 ## Task 1:
-- Write a Dockerfile so that when the command `docker build --build-arg mode=dev . -t demo/server` is ran in the root of the directory an image that meets the following requirements will be built:
+- Write a Dockerfile so that when the command `docker build --build-arg mode=dev . -t demo/server` is ran in the root of the directory an image that meets the following requirements is be built:
   - Has Python version 3.7
   - Sets an environment variable `MODE` to the value of the build argument `mode`
   - Has the program `psql` for version 13 of PostgreSQL installed
