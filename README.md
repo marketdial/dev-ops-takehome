@@ -44,7 +44,7 @@ The purpose of this project is to create a small Python server that can interact
 - Bonus: Write unit tests that are ran automatically during the image build. The build for the should fail if the tests fail
 
 ## Task 5:
-- Provide a cURL command that when ran will post data to your Python service resulting in a store with name `test_store` being inserted into the database.
+- Provide a cURL command that when ran will post data to your Python service, resulting in a store with name `test_store` being inserted into the database.
 
 
 # How will we verify this once submitted?
