@@ -48,7 +48,7 @@ The purpose of this project is to create a small Python server that can interact
 
 
 # How will we verify this once submitted?
-Once your code is submitteed we will do the following to verify functionality:
+Once your code is submitted we will do the following to verify functionality:
 - Run `docker compose up` to start the server/database containers
 - In the server container we will confirm:
   - All requested packages are installed at the versions requested
