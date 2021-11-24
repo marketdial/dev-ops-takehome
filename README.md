@@ -17,7 +17,7 @@ The purpose of this project is to create a small Python server that can interact
 
 ## Task 2:
 - Write a docker compose file so that when the command `docker compose up` is ran at the root of the directory the following requirements are met:
-  - The image described above is started meets the following specifications:
+  - The image described above is started and meets the following specifications:
     - It is built if not already present on the system
     - The build arg value for `mode` should be set to `dev`
     - Has a volume set up so that all changes made locally are instantly reflected in the container
